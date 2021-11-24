@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'roboto';
+}
+
+/* header */
+
+header{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.img_chiante{
+    width: 100%;
+    background: url('handmaids_main-1280x720-1.jpg');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.bandeau{
+    display: grid;
+    width: 100%;
+    flex-direction: row;
+    justify-content: flex-end;
+    grid-template-areas: "1 2";
+    grid-template-columns: 95% 5%;
+    grid-template-rows: 4em;
+    background-color: #a63740;
+}
+
+.bandeau i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #a63740;
+    grid: "2"
+}
+
+.bandeau h2{
+    display: flex;
+    justify-content: center;
+    grid: 1;
+    align-items: center;
+}
+
+.container{
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    padding: 5% 0 5% 5%;
+    background: linear-gradient(90deg, #a63740 , black, black, rgba(0, 0, 0, 0.048));
+}
+
+.txt-cover{
+    padding-left: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: flex-end;
+    align-self: flex-end;
+} 
+
+.para{
+    display: flex;
+    height: 100px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.txt-cover h3{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.strt{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.strt_watch{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+/* main part */
+
+main{
+    background-color: #21252A;
+    color: rgb(202, 202, 202);
+    width: 100vw;
+    height: 50vw;
+}
+
+#selection{
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+}
+
+#selection h3{
+    padding: 2% 4% 1% 4%;
+}
+
+#selection h3:hover{
+    border-bottom: solid #cacaca 5px;
+}
+
+.affiche{
+    display: flex;
+    flex-direction: row;
+}
+
+[class*="photo"]{
+    padding: 0.2%;
+}
+
+.affiche img{
+    width: 25rem;
+    height: 15rem;
+    padding-bottom: 1%;
+}
+
+.affiche h4{
+    font-size: 22px;
+}
+
+#ctrl-affiche{
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+}

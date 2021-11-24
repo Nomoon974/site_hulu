@@ -1,0 +1,245 @@
+*{
+    margin:0;
+    color: beige;
+    font-family: 'roboto';
+}
+/*fin general*/
+
+/*header*/
+header{
+    background-color:  #A63740;
+}
+
+#tete{
+    display: flex;
+}
+.title{
+    flex:1;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.close{
+    padding: 0.5% 1% 0.5% 1%;
+}
+/*fin header*/
+
+/*main*/
+main{
+    /*background-color:#ff0008;*/
+    background: black;
+}
+
+.imgz{
+    background: url('handmaids_main-1280x720-1.jpg');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+
+.div_cover{
+    padding-right: 3%;
+}
+
+#presentation{
+    display: flex;
+    flex-direction: row;
+    padding: 2% 0 4% 4% ;
+    background: linear-gradient(90deg, #bc3639, black 45%, rgba(0, 0, 0, 0.123));
+}
+
+.handmaid_title{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    justify-content: space-around;
+}
+
+.title_2{
+    padding-bottom: 1%;
+}
+
+.genre{
+    padding-bottom: 1%;
+}
+
+.point{
+    padding-right: 1%;
+}
+
+.genre ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 0;
+}
+
+.genre ul li{
+    list-style: none;
+    display: flex;
+    padding-right: 15px;
+}
+
+.description{
+    display: flex;
+    text-justify:newspaper;
+    padding-bottom: 1%;
+    width: 60%;
+}
+
+.bouton{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.ajouter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.play{
+    padding-right: 1%;
+}
+
+.episodes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 1%;
+    flex-direction: row;
+    text-align: center;
+}
+
+
+/*fin main*/
+
+/*Footer*/
+footer{
+    background-color: #1D2126;
+}
+
+.description_bas>ul{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.description_bas>ul li{
+    list-style: none;
+    padding: 1.5%;
+    border-bottom: 4px solid #1D2126 ;
+}
+
+.description_bas>ul li:hover{
+    border-bottom: solid rgb(255, 253, 253) 4px ;
+}
+
+.slider{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+.slider img{
+    width: 400px;
+    height: 200px;
+}
+
+.slider h4{
+    font-size: 22px;
+    padding-top: 1%;
+}
+
+@media only screen and (max-width: 600px) {
+
+    #presentation{
+        display: flex;
+        flex-direction: column;
+        padding: 5%;
+        transition: all 250ms ease-in-out;
+    }
+
+    .div_cover{
+        display: flex;
+        justify-content: center;
+    }
+
+    .handmaid_title{
+        display: flex;
+        flex-direction: column;
+        align-self: flex-end;
+        justify-content: space-around;
+        padding: 5%;
+        transition: all 250ms ease-in-out;
+    }
+
+    .description{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        transition: all 250ms ease-in-out;
+    }
+
+    .title_2{
+        display: flex;
+        justify-content: center;
+        transition: all 250ms ease-in-out;
+        padding: 5% 0 5% 0;
+    }
+
+    .genre{
+        display: flex;
+        justify-content: center;
+        transition: all 250ms ease-in-out;
+        padding-bottom: 5%;
+    }
+
+    .bouton{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-top: 5%;
+    }
+
+    .description_bas>ul{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-left: 0;
+    }
+
+    .slider{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 4%;
+        padding-bottom: 4%;
+    }
+
+    .slider img{
+        width: 400px;
+        height: 200px;
+        background-position: center;
+    }
+    
+    .slider h4{
+        font-size: 22px;
+        padding-top: 1%;
+    }
+
+    [class*="photo"]{
+        padding-bottom: 5%;
+    }
+
+    .imgz{
+        background: unset;
+    }
+}
