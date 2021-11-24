@@ -2,6 +2,7 @@
     margin:0;
     color: beige;
     font-family: 'roboto';
+    transition: all 250ms ease-in-out;
 }
 /*fin general*/
 
@@ -19,6 +20,11 @@ header{
     text-align: center;
     align-items: center;
     justify-content: center;
+}
+
+.title_2>h2{
+    font-size: 62px;
+    font-weight: lighter;
 }
 
 .close{
@@ -132,6 +138,7 @@ footer{
     list-style: none;
     padding: 1.5%;
     border-bottom: 4px solid #1D2126 ;
+    font-weight: 22px;
 }
 
 .description_bas>ul li:hover{
@@ -156,6 +163,12 @@ footer{
     padding-top: 1%;
 }
 
+@media only screen and (max-width: 1000px) {
+    
+
+}
+
+
 @media only screen and (max-width: 600px) {
 
     #presentation{
@@ -163,6 +176,7 @@ footer{
         flex-direction: column;
         padding: 5%;
         transition: all 250ms ease-in-out;
+        background: linear-gradient(180deg, #bc3639, black 45%, rgba(0, 0, 0, 0.123));
     }
 
     .div_cover{
@@ -177,6 +191,11 @@ footer{
         justify-content: space-around;
         padding: 5%;
         transition: all 250ms ease-in-out;
+    }
+
+    .title_2>h2{
+        font-size: 52px;
+        font-weight: lighter;
     }
 
     .description{
@@ -237,6 +256,7 @@ footer{
 
     [class*="photo"]{
         padding-bottom: 5%;
+        background-position: center;
     }
 
     .imgz{
