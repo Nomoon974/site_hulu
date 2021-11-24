@@ -44,7 +44,6 @@ main{
     background-position: right;
 }
 
-
 .div_cover{
     padding-right: 3%;
 }
@@ -53,7 +52,7 @@ main{
     display: flex;
     flex-direction: row;
     padding: 2% 0 4% 4% ;
-    background: linear-gradient(90deg, #bc3639, black 45%, rgba(0, 0, 0, 0.123));
+    background: linear-gradient(90deg, #bc3639, black, #010101 , #00000023);
 }
 
 .handmaid_title{
@@ -163,7 +162,38 @@ footer{
     padding-top: 1%;
 }
 
+[class^="pho"]{
+    padding-right: 1%;
+}
+
 @media only screen and (max-width: 1000px) {
+    .slider{
+        display: grid;
+        justify-content: center;
+        grid-template-areas: 
+        "1 2"
+        "3 4";
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+         }
+
+    .photo1{ 
+        grid-area: "1";
+        display: grid;
+        justify-content: center;
+    }
+    .photo2{ grid-area: "2";
+        display: grid;
+        justify-content: center;
+    }
+    .photo3{ grid-area: "3";
+        display: grid;
+        justify-content: center;
+    }
+    .photo4{ grid-area: "4";
+        display: grid;
+        justify-content: center;
+    }
     
 
 }
