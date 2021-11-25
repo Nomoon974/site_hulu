@@ -167,6 +167,15 @@ footer{
     width: 25%;
 }
 
+.foot_div{
+    width: inherit;
+    background-color: #A63740;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
 @media only screen and (max-width: 1300px) {
     .slider{
         display: grid;
