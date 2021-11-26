@@ -52,7 +52,7 @@ main{
     display: flex;
     flex-direction: row;
     padding: 2% 0 4% 4% ;
-    background: linear-gradient(90deg, #bc3639, black, #010101 , #00000023);
+    background: linear-gradient(90deg, #bc3639, black, #010101a4 , #00000023);
 }
 
 .handmaid_title{
