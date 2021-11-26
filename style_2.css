@@ -219,7 +219,6 @@ footer{
         display: flex;
         flex-direction: column;
         padding: 5%;
-        transition: all 250ms ease-in-out;
         background: linear-gradient(180deg, #bc3639, black 45%, rgba(0, 0, 0, 0.123));
     }
 
@@ -234,7 +233,6 @@ footer{
         align-self: flex-end;
         justify-content: space-around;
         padding: 5%;
-        transition: all 250ms ease-in-out;
     }
 
     .title_2>h2{
@@ -247,20 +245,17 @@ footer{
         justify-content: center;
         text-align: center;
         width: 100%;
-        transition: all 250ms ease-in-out;
-    }
+        }
 
     .title_2{
         display: flex;
         justify-content: center;
-        transition: all 250ms ease-in-out;
         padding: 5% 0 5% 0;
     }
 
     .genre{
         display: flex;
         justify-content: center;
-        transition: all 250ms ease-in-out;
         padding-bottom: 5%;
     }
 
